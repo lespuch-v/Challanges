@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-container{
+    border-radius: 20px;
+    width: 400px;
+    background-color: rgb(247, 99, 99);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recepie-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 400px;
+}
+h1, p{
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.btn{
+    padding: 0.5em 2em;
+    background-color: rgb(247, 99, 99);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 150ms ;
+}
+.btn:hover,
+.btn:focus{
+    transform: scale(1.04);
+}
+.btn:active{
+    transform: scale(1);
+}
