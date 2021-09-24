@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8bc1e0;
+    color: white;
+  }
+.main-container{
+    width: 720px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+.con{
+    padding: 70px;
+    box-shadow: 2px 2px 5px black;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.invoiceNum{
+    color: grey;
+}
+p{
+    color: grey;
+}
+img{
+    width: 150px;
+}
+@media screen and (max-width: 720px){
+    .main-container{
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .con{
+        padding: 0;
+        margin: 0;
+    }
+    img{
+        width: 150px;
+    }
+
+}
