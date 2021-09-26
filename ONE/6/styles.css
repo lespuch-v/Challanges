@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.main-container{
+    background-color: rgb(247, 185, 72);
+    width: 350px;
+    padding: 50px;
+    border-radius: 30px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 350ms;
+    box-shadow: 2px 2px 9px black;
+}
+.main-container:hover{
+    transform: scale(1.1);
+}
+.container{
+    text-align: center;
+}
+button{
+    padding: 0.7em;
+    margin: 0.5em;
+    font-size: 1.8rem;
+    border-radius: 30px;
+    transition: all 250ms;
+    border: none;
+    background-color: #faefca;
+    color: darkblue;
+}
+button:hover,
+button:focus{
+    transform: scale(1.1);
+    text-decoration: underline;
+    box-shadow: 2px 2px 9px orange;
+    color: orangered;
+}
+h1{
+    font-size: 3rem;
+}
+.display{
+    position: flex;
+}
+.goldenStyle{
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.killButton{
+    display: none;
+}
