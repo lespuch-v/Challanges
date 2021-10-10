@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.main-section{
+    /* background-color: green; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    flex-wrap: wrap;
+}
+img{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-position: center;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+}
