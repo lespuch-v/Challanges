@@ -1,0 +1,87 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  body{
+     overflow: hidden; 
+  }
+  .sectionContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.35) 0px 7px 17px;
+  }
+  .mainContainer{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content:center;
+    width:100%;
+    height:100%;
+  }
+  h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  h1:hover{
+    text-decoration:underline;
+  }
+  p{
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+  .apple-immage{
+    padding-left: 200px;
+    width: 630px;
+    height: 550px;
+    position:sticky;
+    transform: translateX(10em);
+    transform: translateY(-33em);
+    z-index:-1;
+  }
+  img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    
+  }
+  .btn-main ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10 0;
+    padding: 0;
+  }
+  
+  .btn{
+    text-decoration:none;
+    background-color: rgb( 37, 126, 255 );
+    color: white;
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 7px;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+    background-color:rgb( 97, 161, 255 );
+  }
+  .aBTNfix{
+    background-color: rgb( 226, 238, 255 );
+    color: black;
+    margin: 40px;
+  }
+  .aBTNfix:hover{
+    transform: scale(1.1);
+     background-color: rgb( 215, 225, 241 );
+  }
+  .fas{
+    padding-right: 3px;
+  }
